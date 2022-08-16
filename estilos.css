@@ -1,98 +1,143 @@
-.navbar{
-    background-color:black;
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.carrousel{
-    width: 100%;
-    height: 200px;
+.navbar {
+  background-color: black;
 }
 
-.contenedor{
-    margin-top: 600px;
-    margin-left: 60px;
-    margin-right: 100px;
-    margin-bottom: 100px;
-    box-sizing: border-box;
-    background-color: brown;
-    min-height: 900px;
-    width: 90%; 
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "img1 img2 img3 img3"
-                         "img1 img4 img5 img5"  
-     
-    ;                     
+.carrousel {
+  width: 100%;
+  height: 200px;
 }
 
-
- 
-
- .item1{
-    background-image: url(./Imagenes/skater-girl.jpg);
-    background-position: center;
-    background-size: cover;
-    grid-area: img1;
- }
-
- .item2{
-    background-image: url(./Imagenes/skater-girl.jpg);
-    background-position: center;
-    background-size: cover;
-    grid-area: img1;
- }
-
- .item3{
-    background-image: url(./Imagenes/grid2.jpg);
-    background-position: center;
-    background-size: cover;
-    grid-area: img2;
+.contenedor {
+  margin-top: 600px;
+  margin-left: 60px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+  background-color: brown;
+  min-height: 900px;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "img1 img2 img3 img3" "img1 img4 img5 img5";
 }
 
-.item4{
-    background-image: url(./Imagenes/skaterniños.jpg);
-    background-position: center;
-    background-size: cover;
-    grid-area: img3;
+.item1 {
+  background-image: url(./Imagenes/skater-girl.jpg);
+  background-position: center;
+  background-size: cover;
+  grid-area: img1;
 }
 
-.item5{
-    background-image: url(./Imagenes/skater.jpg);
-    background-position: center;
-    background-size: cover;
-    grid-area: img4;
+.item2 {
+  background-image: url(./Imagenes/skater-girl.jpg);
+  background-position: center;
+  background-size: cover;
+  grid-area: img1;
 }
 
-.item6{
-    background-image: url(./Imagenes/grid3.jpg);
-    background-position: center;
-    background-size: cover;
-    grid-area: img5;
+.item3 {
+  background-image: url(./Imagenes/grid2.jpg);
+  background-position: center;
+  background-size: cover;
+  grid-area: img2;
 }
 
-.titulo{
-    text-align: center;
-    margin-bottom: 50px;
+.item4 {
+  background-image: url(./Imagenes/skaterniños.jpg);
+  background-position: center;
+  background-size: cover;
+  grid-area: img3;
 }
 
-.contcard{
-    display: flex;
-    height: 10%;
-    width: 100%;
+.item5 {
+  background-image: url(./Imagenes/skater.jpg);
+  background-position: center;
+  background-size: cover;
+  grid-area: img4;
 }
 
-.consulta{
-    margin-top: 20px;
-    margin-left: 30px;
-}
-.form{
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
+.item6 {
+  background-image: url(./Imagenes/grid3.jpg);
+  background-position: center;
+  background-size: cover;
+  grid-area: img5;
 }
 
-.tituloindumentaria{
-    padding-top: 40px;
-    padding-left: 30px;
-    margin-bottom: 70px;
+.titulo {
+  text-align: center;
+  margin-bottom: 50px;
 }
+
+.contcard {
+  display: flex;
+  height: 10%;
+  width: 100%;
+}
+
+.consulta {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.form {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.tituloindumentaria {
+  padding-top: 40px;
+  padding-left: 30px;
+  margin-bottom: 70px;
+}
+
+header {
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+}
+
+nav {
+  padding-top: 10px;
+  padding-right: 5px;
+}
+nav ul {
+  text-align: left;
+}
+nav ul li {
+  display: flex;
+  text-decoration: none;
+}
+nav ul li a {
+  margin: 10px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+div {
+  padding: 20px;
+  padding-bottom: 30px;
+  margin-left: 20px;
+}
+div h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 20px;
+}
+
+p {
+  padding: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
