@@ -1,13 +1,14 @@
-.navbar{
-    background-color:black;
+@charset "UTF-8";
+.navbar {
+    background-color: black;
 }
 
-.carrousel{
+.carrousel {
     width: 100%;
     height: 200px;
 }
 
-.contenedor{
+.contenedor {
     margin-top: 600px;
     margin-left: 60px;
     margin-right: 100px;
@@ -15,84 +16,81 @@
     box-sizing: border-box;
     background-color: brown;
     min-height: 900px;
-    width: 90%; 
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "img1 img2 img3 img3"
-                         "img1 img4 img5 img5"  
-     
-    ;                     
+    grid-template-areas: "img1 img2 img3 img3" "img1 img4 img5 img5";
 }
 
-
- 
-
- .item1{
-    background-image: url(./Imagenes/skater-girl.jpg);
-    background-position: center;
-    background-size: cover;
-    grid-area: img1;
- }
-
- .item2{
-    background-image: url(./Imagenes/skater-girl.jpg);
-    background-position: center;
-    background-size: cover;
-    grid-area: img1;
- }
-
- .item3{
-    background-image: url(./Imagenes/grid2.jpg);
-    background-position: center;
-    background-size: cover;
-    grid-area: img2;
+.item1 {
+  background-image: url(./Imagenes/skater-girl.jpg);
+  background-position: center;
+  background-size: cover;
+  grid-area: img1;
 }
 
-.item4{
-    background-image: url(./Imagenes/skaterniños.jpg);
-    background-position: center;
-    background-size: cover;
-    grid-area: img3;
+.item2 {
+  background-image: url(./Imagenes/skater-girl.jpg);
+  background-position: center;
+  background-size: cover;
+  grid-area: img1;
 }
 
-.item5{
-    background-image: url(./Imagenes/skater.jpg);
-    background-position: center;
-    background-size: cover;
-    grid-area: img4;
+.item3 {
+  background-image: url(./Imagenes/grid2.jpg);
+  background-position: center;
+  background-size: cover;
+  grid-area: img2;
 }
 
-.item6{
-    background-image: url(./Imagenes/grid3.jpg);
-    background-position: center;
-    background-size: cover;
-    grid-area: img5;
+.item4 {
+  background-image: url(./Imagenes/skaterniños.jpg);
+  background-position: center;
+  background-size: cover;
+  grid-area: img3;
 }
 
-.titulo{
-    text-align: center;
-    margin-bottom: 50px;
+.item5 {
+  background-image: url(./Imagenes/skater.jpg);
+  background-position: center;
+  background-size: cover;
+  grid-area: img4;
 }
 
-.contcard{
-    display: flex;
-    height: 10%;
-    width: 100%;
+.item6 {
+  background-image: url(./Imagenes/grid3.jpg);
+  background-position: center;
+  background-size: cover;
+  grid-area: img5;
 }
 
-.consulta{
-    margin-top: 20px;
-    margin-left: 30px;
-}
-.form{
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
+.titulo {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-.tituloindumentaria{
-    padding-top: 40px;
-    padding-left: 30px;
-    margin-bottom: 70px;
+.contcard {
+  display: flex;
+  height: 10%;
+  width: 100%;
 }
+
+.consulta {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.form {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.tituloindumentaria {
+  padding-top: 40px;
+  padding-left: 30px;
+  margin-bottom: 70px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
