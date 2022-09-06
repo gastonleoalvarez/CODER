@@ -5,92 +5,117 @@
 
 .carrousel {
     width: 100%;
-    height: 200px;
+    height: 750px;
 }
 
-.contenedor {
-    margin-top: 600px;
-    margin-left: 60px;
-    margin-right: 100px;
-    margin-bottom: 100px;
-    box-sizing: border-box;
-    background-color: brown;
-    min-height: 900px;
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "img1 img2 img3 img3" "img1 img4 img5 img5";
-}
-
-.item1 {
-  background-image: url(./Imagenes/skater-girl.jpg);
-  background-position: center;
-  background-size: cover;
-  grid-area: img1;
-}
-
-.item2 {
-  background-image: url(./Imagenes/skater-girl.jpg);
-  background-position: center;
-  background-size: cover;
-  grid-area: img1;
-}
-
-.item3 {
-  background-image: url(./Imagenes/grid2.jpg);
-  background-position: center;
-  background-size: cover;
-  grid-area: img2;
-}
-
-.item4 {
-  background-image: url(./Imagenes/skaterniños.jpg);
-  background-position: center;
-  background-size: cover;
-  grid-area: img3;
-}
-
-.item5 {
-  background-image: url(./Imagenes/skater.jpg);
-  background-position: center;
-  background-size: cover;
-  grid-area: img4;
-}
-
-.item6 {
-  background-image: url(./Imagenes/grid3.jpg);
-  background-position: center;
-  background-size: cover;
-  grid-area: img5;
-}
-
-.titulo {
+/*PRODUCTOS*/
+.titulo{
   text-align: center;
   margin-bottom: 50px;
 }
 
-.contcard {
+.contcard{
   display: flex;
-  height: 10%;
   width: 100%;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-top: 50px; 
 }
 
-.consulta {
+.card{
+  margin: 20px;
+  justify-content: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  cursor: default;
+}
+
+.titulo-skate{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/*CONTACTO*/
+.consulta{
   margin-top: 20px;
   margin-left: 30px;
 }
 
-.form {
+.form{
   margin-top: 30px;
   margin-left: 30px;
   margin-right: 30px;
 }
 
-.tituloindumentaria {
-  padding-top: 40px;
-  padding-left: 30px;
-  margin-bottom: 70px;
+.form-control{
+  width: 40%;
 }
 
+/*FOOTER*/
+footer{
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.container-redes{
+  margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 600px){
+  .navbar{
+    text-align: center;
+    display: block;
+  }
+
+  .navbar-brand{
+    text-align: center;
+    justify-content: center;
+  }
+
+  .navbar-nav{
+    flex-direction: row;
+    justify-content: center;
+  }
+  .nav-item{
+    margin: 5px;
+  }
+
+  .carrousel{
+    height: 300px;
+  }
+
+  .d-block{
+    height: 300px;
+    width: 100px;
+  }
+
+  .titulo{
+    padding-top: 40px;
+    flex-direction: row;
+    font-size: 20px;
+  }
+
+.contcard{
+  display: block;
+  align-items: center;
+}
+
+.card{
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+}
 /*# sourceMappingURL=estilos.css.map */
