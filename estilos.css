@@ -1,121 +1,146 @@
-@charset "UTF-8";
 .navbar {
-    background-color: black;
+  background-color: black;
 }
 
 .carrousel {
-    width: 100%;
-    height: 750px;
+  width: 100%;
+  height: 750px;
 }
 
 /*PRODUCTOS*/
-.titulo{
+.titulo {
   text-align: center;
   margin-bottom: 50px;
 }
 
-.contcard{
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  box-sizing: border-box;
-  margin-top: 50px; 
+.imagen-tablas {
+  width: 300px;
+  height: 350px;
 }
 
-.card{
-  margin: 20px;
-  justify-content: center;
-  box-sizing: border-box;
-  overflow: hidden;
-  cursor: default;
+.imagenes-indumentaria {
+  width: 300px;
+  height: 300px;
 }
 
-.titulo-skate{
+.boton {
+  color: #ffffff;
+}
+
+.boton-carrito {
+  background: #000000;
+}
+
+.titulo-skate {
   margin-top: 50px;
   margin-bottom: 10px;
   text-align: center;
 }
 
 /*CONTACTO*/
-.consulta{
+.consulta {
   margin-top: 20px;
   margin-left: 30px;
 }
 
-.form{
+.form {
   margin-top: 30px;
   margin-left: 30px;
   margin-right: 30px;
 }
 
-.form-control{
+.form-control {
   width: 40%;
 }
 
-/*FOOTER*/
-footer{
-  text-align: center;
-  margin-top: 7rem;
+/*NOSOTROS*/
+.cont-parrafo {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
 }
 
-.container-redes{
-  margin-bottom: 0;
+.cont-nos {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-
-@media screen and (max-width: 600px){
-  .navbar{
+@media screen and (max-width: 600px) {
+  .navbar {
     text-align: center;
     display: block;
   }
-
-  .navbar-brand{
+  .navbar-brand {
     text-align: center;
     justify-content: center;
   }
-
-  .navbar-nav{
+  .navbar-nav {
     flex-direction: row;
     justify-content: center;
   }
-  .nav-item{
+  .nav-item {
     margin: 5px;
   }
-
-  .carrousel{
+  .carrousel {
     height: 300px;
   }
-
-  .d-block{
+  .d-block {
     height: 300px;
     width: 100px;
   }
-
-  .titulo{
+  .titulo {
     padding-top: 40px;
     flex-direction: row;
     font-size: 20px;
   }
-
-.contcard{
-  display: block;
-  align-items: center;
+  .contcard {
+    display: block;
+    align-items: center;
+  }
+  .card {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .consulta {
+    text-align: center;
+  }
+  .form {
+    align-items: center;
+    text-align: center;
+  }
+  .form-control {
+    justify-content: center;
+    width: 100%;
+  }
+  .textarea {
+    width: 100%;
+  }
+}
+footer {
+  text-align: center;
+  margin-top: 7rem;
 }
 
-.card{
+.container-redes {
+  margin-bottom: 0;
+}
+
+.contcard {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+.card {
+  margin: 20px;
   justify-content: center;
-  align-items: center;
-  width: 90%;
+  box-sizing: border-box;
+  overflow: hidden;
+  cursor: default;
+  justify-items: center;
 }
 
-
-
-
-
-
-
-
-
-
-}
 /*# sourceMappingURL=estilos.css.map */

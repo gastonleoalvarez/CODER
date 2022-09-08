@@ -1,56 +1,45 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.navbar{
-    background-color:black;
+@charset "UTF-8";
+.navbar {
+    background-color: black;
 }
 
-body{
-    height: 1000vh;
-    display: block;
-}
-
-.carrousel{
+.carrousel {
     width: 100%;
     height: 750px;
 }
 
-
-
+/*PRODUCTOS*/
 .titulo{
     text-align: center;
     margin-bottom: 50px;
 }
 
-
-//PRODUCTOS DESTACADOS//
-.contcard{
-    display: flex;
-    height: 650px;
-    width: 100%;
-    margin: 150px;
-    box-sizing: border-box;
+.imagen-tablas{
+    width: 300px;
+    height: 350px;
 }
 
-.card{
-    margin: 20px;
-    justify-content: center;
-    box-sizing: border-box;
-    overflow: hidden;
-    cursor: default;
+.imagenes-indumentaria{
+    width: 300px;
+    height: 300px;
+}
+
+.boton{
+    color:#ffffff
+}
+
+.boton-carrito{
+    background: #000000;
 }
 
 
+.titulo-skate{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
 
-
-
-
-
-
-
-//CONTACTO//
+/*CONTACTO*/
 .consulta{
     margin-top: 20px;
     margin-left: 30px;
@@ -62,11 +51,88 @@ body{
     margin-right: 30px;
 }
 
-
-//INDUMENTARIA
-.tituloindumentaria{
-    padding-top: 40px;
-    padding-left: 30px;
-    margin-bottom: 70px;
+.form-control{
+    width: 40%;
 }
 
+/*NOSOTROS*/
+.cont-parrafo{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.cont-nos{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+@media screen and (max-width: 600px){
+.navbar{
+    text-align: center;
+    display: block;
+}
+
+.navbar-brand{
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar-nav{
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-item{
+    margin: 5px;
+}
+
+.carrousel{
+    height: 300px;
+}
+
+.d-block{
+    height: 300px;
+    width: 100px;
+}
+
+.titulo{
+    padding-top: 40px;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.contcard{
+    display: block;
+    align-items: center;
+}
+
+.card{
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.consulta{
+    text-align: center;
+}
+
+.form{
+    align-items: center;
+    text-align: center;
+}
+
+.form-control{
+    justify-content: center;
+    width: 100%;
+}
+
+.textarea{
+    width: 100%;
+}
+}
+
+@import "_footer";
+@import "_cards";
